@@ -1,0 +1,6 @@
+apply plugin: 'java'
+
+dependencies {
+	compile dep('org.mybatis.generator:mybatis-generator-core')
+	testCompile dep('junit:junit')
+}
